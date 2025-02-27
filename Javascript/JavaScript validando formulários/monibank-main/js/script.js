@@ -1,9 +1,9 @@
 import ehUmCpf from "./valida-cpf.js";
 import ehMaiorDeIdade from "./valida-idade.js";
 const camposDoFormulario = document.querySelectorAll("[required]");
-const formulario = document.querySelectorAll("[data-formulario]");
+const formulario = document.querySelector("[data-formulario]");
 
-foormulario.addEventListener("submit", (e) => {
+formulario.addEventListener("submit", (e) => {
     e.preventDefault();
 
     const listaRespostas = {
@@ -11,7 +11,7 @@ foormulario.addEventListener("submit", (e) => {
         "email": e.target.elements["email"].value,
         "rg": e.target.elements["rg"].value,
         "cpf": e.target.elements["cpf"].value,
-        "aniversrio": e.target.elements["aniversrio"].value,
+        "aniversario": e.target.elements["aniversario"].value,
     }
 
     localStorage.setItem("cadastro", JSON.stringify(listaRespostas));
