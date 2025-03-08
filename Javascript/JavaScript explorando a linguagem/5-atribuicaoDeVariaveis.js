@@ -10,3 +10,6 @@ console.log(primeiroNome, sobrenome);
 console.log(`Meu nome é ${primeiroNome} ${sobrenome}`);
 
 const nomeCompleto = primeiroNome + sobrenome;
+
+let nsei; //Declarando
+nsei = 26; //Atribuindo
