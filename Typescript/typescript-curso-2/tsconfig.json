@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "outDir": "dist/js",
-        "target": "ES6",
+        "target": "ES6", //Vai converter para EcmaScript 6
         "noEmitOnError": true,
         "noImplicitAny": true
     },
