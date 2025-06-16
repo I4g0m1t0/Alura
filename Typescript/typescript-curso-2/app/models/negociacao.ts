@@ -11,7 +11,7 @@ export class Negociacao {
 
     //Programação defensiva
     get data(): Date {
-        const data = new Date(this._data.getTime())
+        const data = new Date(this._data.getTime());
         return data;
     }
 }
